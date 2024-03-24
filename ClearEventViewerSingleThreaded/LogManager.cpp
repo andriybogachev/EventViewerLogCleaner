@@ -152,8 +152,6 @@ void ClearAllEventLogs(HWND hwndPB)
     g_LogsCleared = TRUE;
     EnableWindow(hwndButtonCancel, FALSE);
     EnableWindow(hwndButtonStart, TRUE);
-
-    SendMessage(hwndEdit, EM_REPLACESEL, FALSE, (LPARAM)std::to_wstring(numThreads).c_str());
 }
 
 void ClearAllEventLogsThread(HWND hwndPB)

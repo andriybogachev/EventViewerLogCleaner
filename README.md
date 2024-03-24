@@ -1,6 +1,6 @@
-# Clear Event Logs (English)
+# Event Logs Clean Application (English)
 
-Clear Event Logs is a Windows program that allows you to clear all event logs on your system. It features a user-friendly graphical interface that lets you monitor the progress of the clearing process and view lists of cleared logs.
+Event Logs Clean Application is a Windows program that allows you to clear all event logs on your system. It features a user-friendly graphical interface that lets you monitor the progress of the clearing process and view lists of cleared logs.
 
 ## Features
 
@@ -13,19 +13,17 @@ Clear Event Logs is a Windows program that allows you to clear all event logs on
 
 ## System Requirements
 
-- Windows 7 or later
+- Windows Vista or later
 - Administrative rights for successful event log clearing
 
 ## Usage
 
-1. Download or clone the repository to your computer.
-2. Open the solution file in Microsoft Visual Studio.
-3. Build the project.
-4. Run the program. If you don't have administrative rights, the program will prompt you to grant them automatically.
-5. Click the "Start" button to begin the event log clearing process.
-6. Monitor the progress of the clearing in the graphical user interface.
-7. After the clearing process is complete, you will see a message indicating successful clearing.
-8. Optionally, you can cancel the clearing operation by clicking the "Cancel" button.
+1. Download application to your computer.
+2. Run the program. If you don't have administrative rights, the program will prompt you to grant them automatically.
+3. Click the "Start" button to begin the event log clearing process.
+4. Monitor the progress of the clearing in the graphical user interface.
+5. After the clearing process is complete, you will see a message indicating successful clearing.
+6. Optionally, you can cancel the clearing operation by clicking the "Cancel" button.
 
 ## Project Structure
 
@@ -42,11 +40,11 @@ There are two versions of the program available:
 
 1. **ClearEventViewerMultiThreaded**: This version uses multithreading to clear event logs in parallel, resulting in faster execution times, especially on systems with multiple CPU cores.
 
-2. **ClearEventViewerSingleThreaded**: This version clears event logs sequentially on a single thread, which may be slower than the multithreaded version, but can be more suitable for systems with limited resources.
+2. **ClearEventViewerSingleThreaded**: This version clears event logs sequentially on a single thread, which may be slower than the multithreaded version , but it has a more beautiful animated display of the process.
 
 ## Author
 
-This program was created by Andrii Bohachev.
+This program was created by Andrii Bohachev(andriybogachev@gmail.com).
 
 ## License
 
@@ -54,9 +52,9 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ---
 
-# Clear Event Logs (Українська)
+# Event Logs Clean Application (Українська)
 
-Clear Event Logs - це програма для Windows, яка дозволяє очищувати всі журнали подій на вашій системі. Вона має зручний графічний інтерфейс, який дозволяє відслідковувати прогрес очищення та переглядати списки очищених журналів.
+Event Logs Clean Application - це програма для Windows, яка дозволяє очищувати всі журнали подій на вашій системі. Вона має зручний графічний інтерфейс, який дозволяє відслідковувати прогрес очищення та переглядати списки очищених журналів.
 
 ## Функції
 
@@ -69,19 +67,17 @@ Clear Event Logs - це програма для Windows, яка дозволяє
 
 ## Системні вимоги
 
-- Windows 7 або новіша версія
+- Windows Vista або новіша версія
 - Права адміністратора для успішного очищення журналів подій
 
 ## Використання
 
-1. Завантажте або склонуйте репозиторій на свій комп'ютер.
-2. Відкрийте файл рішення в Microsoft Visual Studio.
-3. Збережіть проєкт.
-4. Запустіть програму. Якщо ви не маєте прав адміністратора, програма запросить їх автоматично.
-5. Натисніть кнопку "Start", щоб розпочати процес очищення журналів подій.
-6. Спостерігайте за прогресом очищення в графічному інтерфейсі.
-7. Після завершення процесу очищення ви побачите повідомлення про успішне очищення.
-8. За бажанням ви можете скасувати операцію очищення, натиснувши кнопку "Cancel".
+1. Завантажте програму на свій комп'ютер.
+2. Запустіть програму. Якщо ви не маєте прав адміністратора, програма запросить їх автоматично.
+3. Натисніть кнопку "Start", щоб розпочати процес очищення журналів подій.
+4. Спостерігайте за прогресом очищення в графічному інтерфейсі.
+5. Після завершення процесу очищення ви побачите повідомлення про успішне очищення.
+6. За бажанням ви можете скасувати операцію очищення, натиснувши кнопку "Cancel".
 
 ## Структура проєкту
 
@@ -98,11 +94,11 @@ Clear Event Logs - це програма для Windows, яка дозволяє
 
 1. **ClearEventViewerMultiThreaded**: Ця версія використовує багатопоточність для паралельного очищення журналів подій, що призводить до швидшого виконання, особливо на системах з кількома ядрами процесора.
 
-2. **ClearEventViewerSingleThreaded**: Ця версія очищує журнали подій послідовно в одному потоці, що може бути повільнішим за багатопоточну версію, але може бути більш підходящим для систем з обмеженими ресурсами.
+2. **ClearEventViewerSingleThreaded**: Ця версія очищує журнали подій послідовно в одному потоці, що може бути трохи повільнішим за багатопоточну версію але гарніше анімоване відображення процесу.
 
 ## Автор
 
-Ця програма була створена Андрієм Богачевим.
+Ця програма була створена by Andrii Bohachev(andriybogachev@gmail.com).
 
 ## Ліцензія
 
